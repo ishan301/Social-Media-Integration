@@ -17,25 +17,28 @@
         app:srcCompat="@drawable/sparks_foundation" />
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="match_parent"
+        android:id="@+id/gsignin"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
         android:backgroundTint="@color/white"
         android:drawableLeft="@drawable/ic_icons8_google"
+        android:shadowColor="#03A9F4"
         android:text="google"
+
         android:textColor="#03A9F4"
         android:textSize="18sp"
-
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textView" />
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        app:rippleColor="#2196F3"
+        app:strokeColor="#03A9F4" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:backgroundTint="#4267B2"
@@ -45,12 +48,10 @@
         android:textSize="18sp"
 
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/button2"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@id/gsignin" />
 
     <TextView
         android:id="@+id/textView"
@@ -58,7 +59,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="116dp"
         android:text="Sign In Using"
+        android:textColor="#2196F3"
         android:textSize="28sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
