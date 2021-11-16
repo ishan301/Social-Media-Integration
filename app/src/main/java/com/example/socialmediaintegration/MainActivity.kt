@@ -40,7 +40,6 @@ class MainActivity : AppCompatActivity() {
         FacebookSdk.sdkInitialize(getApplicationContext());
 
 //        Initialize Facebook Login Button
-        // Initialize Facebook Login button
         var callbackManager = CallbackManager.Factory.create()
 
         buttonFacebookLogin.setReadPermissions("email", "public_profile")
