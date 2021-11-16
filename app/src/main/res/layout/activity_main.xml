@@ -36,22 +36,36 @@
         app:rippleColor="#2196F3"
         app:strokeColor="#03A9F4" />
 
-    <Button
-        android:id="@+id/button3"
+<!--    <Button-->
+<!--        android:id="@+id/button3"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:backgroundTint="#4267B2"-->
+<!--        android:drawableLeft="@drawable/ic_icons8_facebook"-->
+<!--        android:text="facebook"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="18sp"-->
+
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.5"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/gsignin" />-->
+
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/buttonFacebookLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:backgroundTint="#4267B2"
-        android:drawableLeft="@drawable/ic_icons8_facebook"
-        android:text="facebook"
-        android:textColor="@color/white"
-        android:textSize="18sp"
-
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/gsignin" />
+        app:layout_constraintTop_toBottomOf="@id/gsignin"/>
 
     <TextView
         android:id="@+id/textView"
