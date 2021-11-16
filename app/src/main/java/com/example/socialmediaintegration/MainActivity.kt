@@ -59,13 +59,7 @@ class MainActivity : AppCompatActivity() {
 
             }
         })
-        // ...
-        fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
-            super.onActivityResult(requestCode, resultCode, data)
 
-            // Pass the activity result back to the Facebook SDK
-            callbackManager.onActivityResult(requestCode, resultCode, data)
-        }
 
 
         // Configure Google Sign In
